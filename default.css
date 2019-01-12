@@ -362,7 +362,7 @@ ul.contact li a.icon-rss:before
 /*********************************************************************************/
 /* Header                                                                        */
 /*********************************************************************************/
-	
+
 #header-wrapper
 {
 	padding: 2em 0em;
@@ -390,7 +390,7 @@ ul.contact li a.icon-rss:before
 #logo h1
 {
 	display: inline-block;
-	font-size: 2.5em;
+	font-size: 2.7em;
 	text-transform: uppercase;
 	font-weight: 700;
 	color: #2C383B;
@@ -468,7 +468,7 @@ ul.contact li a.icon-rss:before
 /*********************************************************************************/
 /* Banner                                                                        */
 /*********************************************************************************/
-	
+
 	#banner-wrapper
 {
 	overflow: hidden;
@@ -950,4 +950,15 @@ ul.contact li a.icon-rss:before
 
 #bio {
     text-align: left;
+}
+
+.content-section {
+	margin: auto;
+	padding: 10px;
+	text-align: left;
+	width: 600px;
+}
+
+.content-seciton h2 {
+	padding: 30px;
 }
