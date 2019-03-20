@@ -39,10 +39,6 @@ p
 	line-height: 180%;
 }
 
-strong
-{
-}
-
 a
 {
 	color: #2C383B;
@@ -53,17 +49,11 @@ a:hover
 	text-decoration: none;
 }
 
-/*.container*/
-/*{*/
-	/*margin: 0px auto;*/
-	/*width: 1200px;*/
-/*}*/
-
 /*********************************************************************************/
 /* Image Style                                                                   */
 /*********************************************************************************/
 
-	.image
+.image
 {
 	display: inline-block;
 }
@@ -310,21 +300,13 @@ ul.contact li a.icon-rss:before
 	-moz-transition: opacity 0.25s ease-in-out;
 	-webkit-transition: opacity 0.25s ease-in-out;
 	-o-transition: opacity 0.25s ease-in-out;
-	-ms-transition: opacity 0.25s ease-in-out;
+	/*-ms-transition: opacity 0.25s ease-in-out;*/
 	transition: opacity 0.25s ease-in-out;
 	letter-spacing: 0.20em;
 	text-decoration: none;
 	text-transform: uppercase;
 	font-weight: 600;
 	color: #FFF;
-}
-
-.button:hover
-{
-}
-
-.button:active
-{
 }
 
 .button-big
@@ -365,27 +347,13 @@ ul.contact li a.icon-rss:before
 
 #header-wrapper
 {
-	padding: 2em 0em;
+	padding: 2em 0;
 	background: #FFF;
-}
-
-#header
-{
-	position: relative;
-	height: 100px;
 }
 
 /*********************************************************************************/
 /* Logo                                                                          */
 /*********************************************************************************/
-
-#logo
-{
-	position: absolute;
-	top: 1.5em;
-	left: 0;
-	width: 100%;
-}
 
 #logo h1
 {
@@ -420,9 +388,7 @@ ul.contact li a.icon-rss:before
 
 #menu
 {
-	position: absolute;
-	right: 0;
-	top: 1em;
+	margin-left: auto;
 }
 
 #menu ul
@@ -435,7 +401,7 @@ ul.contact li a.icon-rss:before
 	display: block;
 	float: left;
 	text-align: center;
-	line-height: 60px;
+	line-height: 90px;
 }
 
 #menu li a, #menu li span
@@ -451,18 +417,10 @@ ul.contact li a.icon-rss:before
 	color: #212121;
 }
 
-#menu li:hover a, #menu li.active a, #menu li.active span
-{
-}
-
 #menu li.current_page_item a
 {
 	background: #197d62;
 	color: #FFF !important;
-}
-
-#menu .icon
-{
 }
 
 /*********************************************************************************/
@@ -701,13 +659,13 @@ ul.contact li a.icon-rss:before
 }
 
 
-	#header-featured
-	{
-		height: 30em;
-		background-image: url(images/banner.jpg);
-		background-position: center;
-		background-size: cover;
-	}
+#header-featured
+{
+	height: 30em;
+	background-image: url(images/banner.jpg);
+	background-position: center;
+	background-size: cover;
+}
 
 
 #slider-wrapper
@@ -721,14 +679,6 @@ ul.contact li a.icon-rss:before
 	margin: 0em auto 0em auto;
 	width: 1200px;
 	position: relative;
-}
-
-#slider .button
-{
-}
-
-#slider .button:hover
-{
 }
 
 #slider .viewer
@@ -956,9 +906,5 @@ ul.contact li a.icon-rss:before
 	margin: auto;
 	padding: 10px;
 	text-align: left;
-	width: 600px;
-}
-
-.content-seciton h2 {
-	padding: 30px;
+	max-width: 600px;
 }
