@@ -18,14 +18,16 @@
   <!--[if IE 6]>
   <link href="default_ie6.css" rel="stylesheet" type="text/css"/><![endif]-->
 
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="js/smooth-scrolling.js"></script>
+  <script type="application/javascript"
+          src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script type="application/javascript"
+          src="js/smooth-scrolling.js"></script>
 </head>
 
 <body>
 <div id="header-wrapper">
-  <div id="header" class="container">
-    <div id="logo">
+  <div id="header" class="container" style="display: flex;">
+    <div id="logo" style="margin: 10px">
       <h1><a href="#">Adam Martin-Côté</a></h1>
       <h3>Software Developer</h3>
     </div>
@@ -90,18 +92,24 @@
 
   <div id="extra" class="container">
     <div id="bio" class="content-section">
-      <img height=180 width=180 src="images/adam_squared.jpg" style="float: right"/><br>
-      <h2>About</h2>
-      <p style="margin-top: 20px">
-        Adam is a junior developer from Montréal currently in his final year
-        of study in Computer engineering at Polytechnique Montreal. He is
-        passionate about Linux and love writing high-quality code using
-        different technologies, like Django, C/C++, and Javascript.
-      </p>
+      <div class="container" style="display: flex; flex-wrap: wrap">
+        <div>
+          <img height=180 width=180 src="images/adam_squared.jpg" style="float: right"/><br>
+        </div>
+        <div style="margin: 5px;">
+          <h2>About</h2>
+          <p style="margin-top: 20px; max-width: 400px">
+            Adam is a junior developer from Montréal currently in his final year
+            of study in Computer engineering at Polytechnique Montreal. He is
+            passionate about Linux and love writing high-quality code using
+            different technologies, like Django, C/C++, and Javascript.
+          </p>
+        </div>
+      </div>
     </div>
   </div>
 
-  <div id="extra" class="container ">
+  <div class="container ">
     <div id="contact" class="content-section">
       <h2>Contact</h2>
       <i class="fa fa-envelope" aria-hidden="true"></i>
